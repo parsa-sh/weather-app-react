@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #23c6a0;
+    @font-face {
+      font-family:ubuntu ;
+      src: url(src/assets/Ubuntu-Regular.ttf);
+    }
+    font-family:'ubuntu';
+  }

@@ -1,0 +1,19 @@
+.container{
+    background: none;
+    color: white;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.container img{
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+
+.container span{
+    background: none;
+    font-size: 64px;
+    margin-top:60px;
+}

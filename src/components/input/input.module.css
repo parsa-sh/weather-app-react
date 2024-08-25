@@ -1,0 +1,60 @@
+
+.container button img{
+    width: 20px;
+    height: 20px;
+    background: none;
+}
+
+.container button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.container button:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0 0 5px #ffffff8a;
+}
+
+.container button:active{
+    box-shadow: 0 0 10px #1f1f1f;
+}
+
+.container input{
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 40px;
+    padding:0 10px;
+    color: black;
+    transition: ease 0.3s;
+    display: inline;
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+}
+.container input::placeholder{
+    color: rgb(0, 0,0,40%);
+    font-weight: 600;
+}
+
+.container input:focus{
+    box-shadow: 0 0 7px #ffffff8a;
+}
+
+.container{
+    background: none;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
